@@ -20,5 +20,5 @@ from food.views import FoodListView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-     path('api/v1/foods/', FoodListView.as_view(), name='foods_list'),
+    path('api/v1/foods/', FoodListView.as_view(), name='foods_list'),
 ]

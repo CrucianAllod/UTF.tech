@@ -1,6 +1,5 @@
 from django.db import models
 from model_utils.models import TimeStampedModel
-from rest_framework import serializers
 
 
 class FoodCategory(TimeStampedModel):
